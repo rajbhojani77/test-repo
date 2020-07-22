@@ -1,0 +1,2 @@
+{{- partial "ccg/rawdata-full.json" (dict "pages" (slice .) "Scratch" .Scratch) -}}
+{{- (index (.Scratch.Get "result") 0) | jsonify -}}
