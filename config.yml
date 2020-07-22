@@ -2,9 +2,6 @@ backend:
   {name: github,repo: rajbhojani77/test-repo}
 
 branch: master 
-media_folder: "static/images"
-media_library:
-   name: images
 
 collections:
   - name: "nhs-service" 
